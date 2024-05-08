@@ -1,0 +1,11 @@
+.mangeboards{
+    text-align: center;
+}
+.btn-1{
+    display: flex;
+    float: right;
+    margin: 50px;
+    width: 15%;
+    text-decoration: none;
+    font-size: larger;
+}

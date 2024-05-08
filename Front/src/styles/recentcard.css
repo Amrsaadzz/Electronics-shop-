@@ -1,0 +1,10 @@
+.recent{
+    position: fixed;
+    margin: 50px 70px;
+    font-size: large;
+}
+.card{
+    width: 20em;
+    margin: 80px;
+    float: left;
+}

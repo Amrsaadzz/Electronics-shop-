@@ -1,0 +1,169 @@
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: rgb(8, 95, 161) ;
+    color: white;
+  }
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .sidebar-header img {
+    width: 70px; 
+    margin-top: 10px; 
+    margin-left: 34%;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: rgb(8, 95, 161);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 30px);
+    padding: 20px;
+    border: 1px solid #fffefe;
+    border-radius: 1px;
+    height:20px;
+    background-color: #fffefe;
+   
+
+    
+}
+  
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+    
+  }
+  
+  .main-content {
+    color:rgb(8, 95, 161);
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+   
+  }
+  
+  .action-buttons {
+    margin-top: 20px;
+   
+  }
+  
+  .add-comment-button,
+  .attachment-button {
+    padding: 10px 20px;
+    background-color: rgb(8, 95, 161) ;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+
+  }
+  
+  .attachment-input {
+    display: none;
+    margin: 10px;
+  }
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    height: 70%;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-header h2 {
+    margin: 0;
+  }
+  
+  .status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .status.to {
+    background-color: #ff9933;
+    text-align: center;
+  }
+  
+  .status.in-progress {
+    background-color: #007bff;
+  }
+  
+  .status.done {
+    background-color: #28a745;
+  }
+  
+  .comments {
+    margin-top: 30px;
+  }
+  
+  .comments h3 {
+    margin-top: 0;
+  }
+  
+  .comments ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comment-input {
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .comment-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .comment-input button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .comment-input button:hover {
+    background-color: #0056b3;
+  }
+
+
+ .shopping-cart{
+  margin-top: 50px;
+  text-align: center;
+ }

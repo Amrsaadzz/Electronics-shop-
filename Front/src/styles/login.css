@@ -1,0 +1,121 @@
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    height: 80vh;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px
+  }
+  
+  .text {
+    color: rgb(8, 95, 161);
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  .underline {
+    width: 100px;
+    height: 9px;
+    background: rgb(8, 95, 161);
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+  
+  .inputs {
+    margin-bottom: 20px;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 8px;
+  }
+  
+  .input img {
+    width: 20px;
+    margin:0px 10px;
+    margin-right: 10px;
+  }
+  
+  .input input {
+    width: calc(100% - 30px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height:50px;
+    background:transparent;
+    border: none;
+    outline: none;
+    color:#797979 ;
+    font-size: 19px;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 15px;
+    padding-left: 62px;
+    color: #797979;
+    font-size: 18px;
+  }
+  
+  .forgot-password span {
+    color:rgb(8, 95, 161);
+    cursor: pointer;
+  }
+  
+  .submit-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit {
+    width: calc(50% - 5px);
+    padding: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+    color: #fff;
+    background:rgb(8, 95, 161) ;
+    border-radius: 30px;
+    font-size: 19px;
+    font-weight: 500px;
+  }
+  
+  .gray {
+    background: #eaeaea;
+    color: #676767
+  }
+  
+  .submit:hover {
+    background:rgb(8, 95, 161) ;
+  }
