@@ -1,1 +1,1 @@
-electronics site using spring boot and node js
+electronics shop site using spring boot and node js
